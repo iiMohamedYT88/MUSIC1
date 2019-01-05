@@ -6,7 +6,7 @@ const getYoutubeID = require('get-youtube-id');
 
 const fetchVideoInfo = require('youtube-info');
 
-const YouTube = require('simple-youtube-api');
+const YouTube = require('simple-youtube-api'); 
 
 const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 
@@ -20,8 +20,8 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1";
-var adminprefix = '1'
+const prefix = "2";
+var adminprefix = '2'
 /////////////////////////
 ////////////////////////
 
